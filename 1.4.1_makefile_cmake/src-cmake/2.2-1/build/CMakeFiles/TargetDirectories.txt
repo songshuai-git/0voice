@@ -1,0 +1,13 @@
+/mnt/hgfs/make/src-cmake/2.2-1/build/CMakeFiles/install/strip.dir
+/mnt/hgfs/make/src-cmake/2.2-1/build/CMakeFiles/install/local.dir
+/mnt/hgfs/make/src-cmake/2.2-1/build/CMakeFiles/edit_cache.dir
+/mnt/hgfs/make/src-cmake/2.2-1/build/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/make/src-cmake/2.2-1/build/CMakeFiles/list_install_components.dir
+/mnt/hgfs/make/src-cmake/2.2-1/build/CMakeFiles/install.dir
+/mnt/hgfs/make/src-cmake/2.2-1/build/src/CMakeFiles/install/strip.dir
+/mnt/hgfs/make/src-cmake/2.2-1/build/src/CMakeFiles/install/local.dir
+/mnt/hgfs/make/src-cmake/2.2-1/build/src/CMakeFiles/youzi.dir
+/mnt/hgfs/make/src-cmake/2.2-1/build/src/CMakeFiles/edit_cache.dir
+/mnt/hgfs/make/src-cmake/2.2-1/build/src/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/make/src-cmake/2.2-1/build/src/CMakeFiles/install.dir
+/mnt/hgfs/make/src-cmake/2.2-1/build/src/CMakeFiles/list_install_components.dir

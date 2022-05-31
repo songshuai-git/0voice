@@ -1,0 +1,7 @@
+/mnt/hgfs/make/src-cmake/4.2/build/CMakeFiles/install/strip.dir
+/mnt/hgfs/make/src-cmake/4.2/build/CMakeFiles/install/local.dir
+/mnt/hgfs/make/src-cmake/4.2/build/CMakeFiles/Dir1.dir
+/mnt/hgfs/make/src-cmake/4.2/build/CMakeFiles/edit_cache.dir
+/mnt/hgfs/make/src-cmake/4.2/build/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/make/src-cmake/4.2/build/CMakeFiles/install.dir
+/mnt/hgfs/make/src-cmake/4.2/build/CMakeFiles/list_install_components.dir

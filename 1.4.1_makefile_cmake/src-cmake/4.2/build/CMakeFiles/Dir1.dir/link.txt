@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../release/linux/Debug/libDir1.a CMakeFiles/Dir1.dir/dir1.o
+/usr/bin/ranlib ../release/linux/Debug/libDir1.a

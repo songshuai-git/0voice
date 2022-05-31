@@ -1,0 +1,3 @@
+/mnt/hgfs/0voice/vip/20210128-makefile-cmake/src-cmake/tmp/CMakeFiles/edit_cache.dir
+/mnt/hgfs/0voice/vip/20210128-makefile-cmake/src-cmake/tmp/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/0voice/vip/20210128-makefile-cmake/src-cmake/tmp/CMakeFiles/0voice.dir

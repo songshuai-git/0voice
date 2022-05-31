@@ -1,0 +1,3 @@
+/mnt/hgfs/make/src-cmake/4.1/build/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/make/src-cmake/4.1/build/CMakeFiles/edit_cache.dir
+/mnt/hgfs/make/src-cmake/4.1/build/CMakeFiles/Dir1.dir

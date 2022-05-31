@@ -1,0 +1,4 @@
+/home/ss123/0Voice/1.4.1_makefile_cmake/src-cmake/2.1-1/CMakeFiles/edit_cache.dir
+/home/ss123/0Voice/1.4.1_makefile_cmake/src-cmake/2.1-1/CMakeFiles/rebuild_cache.dir
+/home/ss123/0Voice/1.4.1_makefile_cmake/src-cmake/2.1-1/CMakeFiles/0voice2.dir
+/home/ss123/0Voice/1.4.1_makefile_cmake/src-cmake/2.1-1/CMakeFiles/0voice.dir

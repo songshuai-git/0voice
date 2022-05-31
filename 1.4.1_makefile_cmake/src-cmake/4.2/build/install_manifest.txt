@@ -1,0 +1,2 @@
+/tmp/usr/lib/libDir1.a
+/tmp/usr/include/dir1.h

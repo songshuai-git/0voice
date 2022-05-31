@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/darren.dir/main.c.o -o darren   -L/mnt/hgfs/make/src-cmake/5.1/lib  -Wl,-rpath,/mnt/hgfs/make/src-cmake/5.1/lib -lDir1 
