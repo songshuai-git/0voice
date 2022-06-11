@@ -1,15 +1,14 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "/home/ss123/0Voice/1.4.1_makefile_cmake/src-cmake/2.1-1/main2.c" "/home/ss123/0Voice/1.4.1_makefile_cmake/src-cmake/2.1-1/CMakeFiles/0voice2.dir/main2.c.o"
-  )
-set(CMAKE_C_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/2.1-1/main2.c" "CMakeFiles/0voice2.dir/main2.c.o" "gcc" "CMakeFiles/0voice2.dir/main2.c.o.d"
   )
 
 # Targets to which this target links.

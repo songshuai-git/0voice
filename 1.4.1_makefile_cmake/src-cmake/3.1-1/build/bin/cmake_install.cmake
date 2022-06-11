@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/hgfs/make/src-cmake/3.1-1/src
+# Install script for directory: /home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/3.1-1/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/darren"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/mnt/hgfs/make/src-cmake/3.1-1/build/bin/darren")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/3.1-1/build/bin/darren")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/darren" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/darren")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/darren"
-         OLD_RPATH "/mnt/hgfs/make/src-cmake/3.1-1/build/bin/dir1:"
+         OLD_RPATH "/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/3.1-1/build/bin/dir1:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/darren")
@@ -64,8 +64,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/hgfs/make/src-cmake/3.1-1/build/bin/dir1/cmake_install.cmake")
-  include("/mnt/hgfs/make/src-cmake/3.1-1/build/bin/dir2/cmake_install.cmake")
+  include("/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/3.1-1/build/bin/dir1/cmake_install.cmake")
+  include("/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/3.1-1/build/bin/dir2/cmake_install.cmake")
 
 endif()
 

@@ -1,0 +1,19 @@
+Performing C++ SOURCE FILE Test HAVE_MYSQL_OPT_EMBEDDED_CONNECTION failed with the following output:
+Change Dir: /home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/ZLToolKit/linux_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9239f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9239f.dir/build.make CMakeFiles/cmTC_9239f.dir/build
+gmake[1]: Entering directory '/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/ZLToolKit/linux_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9239f.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_MYSQL_OPT_EMBEDDED_CONNECTION   -o CMakeFiles/cmTC_9239f.dir/src.cxx.o -c /home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/ZLToolKit/linux_build/CMakeFiles/CMakeTmp/src.cxx
+/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/ZLToolKit/linux_build/CMakeFiles/CMakeTmp/src.cxx:1:10: fatal error: mysql.h: No such file or directory
+    1 | #include <mysql.h>
+      |          ^~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_9239f.dir/build.make:78: CMakeFiles/cmTC_9239f.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/ZLToolKit/linux_build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9239f/fast] Error 2
+
+
+Source file was:
+#include <mysql.h>
+int main() { int i = MYSQL_OPT_USE_EMBEDDED_CONNECTION; }

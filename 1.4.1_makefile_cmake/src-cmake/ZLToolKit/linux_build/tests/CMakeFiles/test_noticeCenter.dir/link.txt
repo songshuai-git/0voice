@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/test_noticeCenter.dir/test_noticeCenter.cpp.o -o ../bin/test_noticeCenter  -Wl,-rpath,/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/ZLToolKit/linux_build/lib ../lib/libZLToolKit.so -lssl -lcrypto -lmysqlclient -lpthread 

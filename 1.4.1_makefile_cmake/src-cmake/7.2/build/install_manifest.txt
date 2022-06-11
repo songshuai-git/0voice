@@ -1,0 +1,7 @@
+/usr/local/share/doc/cmake/0voice/darren.txt
+/usr/local/share/doc/cmake/0voice/README.md
+/usr/local/bin/multi-dir
+/usr/local/lib/libDir1.a
+/usr/local/include/dir1.h
+/usr/local/lib/libDir2.so
+/usr/local/include/dir2.h

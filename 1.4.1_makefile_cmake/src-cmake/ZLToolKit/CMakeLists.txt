@@ -1,15 +1,29 @@
-﻿project(ZLToolKit)
+﻿# 流程:
+#   针对不同平台的脚本程序(安装一些依赖，编译等)
+#   生成库(动态库、静态库)
+#   test测试程序测试
+
+# 设置头文件搜索路径
+# 设置源文件搜索路径 找到所有的源文件
+# 依赖的外部库
+# 生成目录
+# 安装目录
+# 不同平台win、linux、macOs、andriod、ios的差异
+
+project(ZLToolKit)
 cmake_minimum_required(VERSION 2.8)
 
 #加载自定义模块
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
+
+# 设置生成目录：LIBRARY_OUTPUT_PATH,EXECUTABLE_OUTPUT_PATH
 #设置库文件路径
 set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
 #设置可执行程序路径
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
-#设置子目录
-set(SUB_DIR_LIST "Network" "Poller" "Thread" "Util")
 
+# 设置源文件的搜索路径：SUB_DIR_LIST
+set(SUB_DIR_LIST "Network" "Poller" "Thread" "Util")
 if(WIN32)
     list(APPEND SUB_DIR_LIST "win32")
     #防止Windows.h包含Winsock.h
@@ -17,7 +31,7 @@ if(WIN32)
     set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 endif()
 
-#安装目录
+#设置安装目录：INSTALL_PATH_LIB,INSTALL_PATH_INCLUDE
 if(WIN32)
     set(INSTALL_PATH_LIB $ENV{HOME}/${CMAKE_PROJECT_NAME}/lib)
     set(INSTALL_PATH_INCLUDE $ENV{HOME}/${CMAKE_PROJECT_NAME}/include)
@@ -26,6 +40,7 @@ else()
     set(INSTALL_PATH_INCLUDE include)
 endif()
 
+#找到所有的源文件：
 foreach(SUB_DIR ${SUB_DIR_LIST})
     #遍历源文件
     aux_source_directory(src/${SUB_DIR} SRC_LIST)
@@ -33,6 +48,7 @@ foreach(SUB_DIR ${SUB_DIR_LIST})
     install(DIRECTORY src/${SUB_DIR} DESTINATION ${INSTALL_PATH_INCLUDE} FILES_MATCHING PATTERN "*.h")
 endforeach()
 
+# 链接的外部库：LINK_LIB_LIST
 #非苹果平台移除.mm类型的文件
 if(NOT APPLE)
     list(REMOVE_ITEM SRC_LIST "src/Network/Socket_ios.mm")
@@ -44,10 +60,8 @@ else()
     set(LINK_LIB_LIST)
 endif()
 
-
 set(ENABLE_OPENSSL true)
 set(ENABLE_MYSQL true)
-
 
 #查找openssl是否安装
 find_package(OpenSSL QUIET)
@@ -68,9 +82,9 @@ if(MYSQL_FOUND AND ENABLE_MYSQL)
     list(APPEND  LINK_LIB_LIST ${MYSQL_LIBRARIES})
 endif()
 
-#打印库文件
 message(STATUS "将链接依赖库:${LINK_LIB_LIST}")
-#引用头文件路径
+
+# 设置头文件的搜索路径：include_directories
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src)
 #使能c++11
 add_compile_options(-std=c++11)
@@ -80,6 +94,7 @@ if(NOT WIN32)
     add_compile_options(-Wno-predefined-identifier-outside-function)
 endif()
 
+# 最终目标：
 #编译动态库
 if(NOT IOS AND NOT ANDROID)
     add_library(${CMAKE_PROJECT_NAME}_shared SHARED ${SRC_LIST})

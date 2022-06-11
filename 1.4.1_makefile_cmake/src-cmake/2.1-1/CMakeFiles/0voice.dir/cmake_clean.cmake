@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/0voice.dir/main.c.o"
-  "0voice.pdb"
   "0voice"
+  "0voice.pdb"
+  "CMakeFiles/0voice.dir/main.c.o"
+  "CMakeFiles/0voice.dir/main.c.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

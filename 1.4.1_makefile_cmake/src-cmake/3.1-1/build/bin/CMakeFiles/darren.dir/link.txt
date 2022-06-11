@@ -1,1 +1,1 @@
-/usr/bin/cc -rdynamic CMakeFiles/darren.dir/main.c.o -o darren  -Wl,-rpath,/mnt/hgfs/make/src-cmake/3.1-1/build/bin/dir1: dir1/libdir1.so dir2/libdir2.a 
+/usr/bin/cc -rdynamic CMakeFiles/darren.dir/main.c.o -o darren  -Wl,-rpath,/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/3.1-1/build/bin/dir1: dir1/libdir1.so dir2/libdir2.a 

@@ -1,0 +1,3 @@
+/tmp/usr/local/share/doc/cmake/0voice/darren.txt
+/tmp/usr/local/share/doc/cmake/0voice/README.MD
+/tmp/usr/local/bin/youzi

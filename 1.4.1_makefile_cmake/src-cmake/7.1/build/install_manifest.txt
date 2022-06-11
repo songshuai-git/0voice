@@ -1,0 +1,7 @@
+/usr/local/doc//darren.txt
+/usr/local/doc//README.md
+/usr/local/bin/multi-dir
+/usr/local/lib/libDir1.so
+/usr/local/include/dir1.h
+/usr/local/lib/libDir2.so
+/usr/local/include/dir2.h

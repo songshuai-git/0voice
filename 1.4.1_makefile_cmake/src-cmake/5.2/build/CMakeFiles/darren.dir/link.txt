@@ -1,1 +1,1 @@
-/usr/bin/cc -rdynamic CMakeFiles/darren.dir/main.c.o -o darren   -L/mnt/hgfs/make/src-cmake/5.2/lib  -Wl,-rpath,/mnt/hgfs/make/src-cmake/5.2/lib -lDir1 
+/usr/bin/cc -rdynamic CMakeFiles/darren.dir/main.c.o -o darren   -L/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/5.2/lib  -Wl,-rpath,/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/5.2/lib -lDir1 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/hgfs/make/src-cmake/4.2/dir1.c" "CMakeFiles/Dir1.dir/dir1.o" "gcc" "CMakeFiles/Dir1.dir/dir1.o.d"
+  "/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/4.2/dir1.c" "CMakeFiles/Dir1.dir/dir1.o" "gcc" "CMakeFiles/Dir1.dir/dir1.o.d"
   )
 
 # Targets to which this target links.

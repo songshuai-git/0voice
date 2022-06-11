@@ -1,0 +1,13 @@
+/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/2.2-1_cp/build_self/CMakeFiles/edit_cache.dir
+/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/2.2-1_cp/build_self/CMakeFiles/rebuild_cache.dir
+/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/2.2-1_cp/build_self/CMakeFiles/list_install_components.dir
+/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/2.2-1_cp/build_self/CMakeFiles/install.dir
+/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/2.2-1_cp/build_self/CMakeFiles/install/local.dir
+/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/2.2-1_cp/build_self/CMakeFiles/install/strip.dir
+/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/2.2-1_cp/build_self/src/CMakeFiles/youzi.dir
+/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/2.2-1_cp/build_self/src/CMakeFiles/edit_cache.dir
+/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/2.2-1_cp/build_self/src/CMakeFiles/rebuild_cache.dir
+/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/2.2-1_cp/build_self/src/CMakeFiles/list_install_components.dir
+/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/2.2-1_cp/build_self/src/CMakeFiles/install.dir
+/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/2.2-1_cp/build_self/src/CMakeFiles/install/local.dir
+/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/2.2-1_cp/build_self/src/CMakeFiles/install/strip.dir

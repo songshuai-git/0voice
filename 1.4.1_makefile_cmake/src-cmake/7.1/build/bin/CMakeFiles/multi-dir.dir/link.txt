@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic "CMakeFiles/multi-dir.dir/main.c.o" -o ../../release/linux/Debug/multi-dir  -Wl,-rpath,/home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/7.1/release/linux/Debug: ../../release/linux/Debug/libDir1.so ../../release/linux/Debug/libDir2.so 

@@ -1,9 +1,8 @@
+#子目录编译成库
 
-# CMake 最低版本号要求
 cmake_minimum_required (VERSION 2.8)
 PROJECT(0VOICE)
 
 ADD_SUBDIRECTORY(src bin)
 
-#INSTALL(FILES COPYRIGHT README DESTINATION share/doc/cmake/0voice)
 INSTALL(DIRECTORY doc/ DESTINATION share/doc/cmake/0voice)

@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/hgfs/make/src-cmake/3.1-1/src/dir1
+# Install script for directory: /home/ss123/0voice/1.4.1_makefile_cmake/src-cmake/3.1-1/src/dir1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
